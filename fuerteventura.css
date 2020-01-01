@@ -1,0 +1,51 @@
+/* Lettertypes*/
+
+@font-face {
+    font-family: sketch-match;
+    src: url(fonts/sketch-match.ttf);
+}
+
+
+/* bovenbalk */
+
+.bovenbalk {
+    width: 100%;
+    height: 200px;
+    background-color:  rgb(226, 117, 54);
+    justify-content: flex-end;
+    display: flex;
+}
+
+.go-canarias-logo{
+    top: 4%;
+    left: 4%;
+    position: absolute;
+    float: left;
+}
+
+.go-canarias-bovenbalk{
+    top: 4%;
+    left: 38%;
+    font-family: sketch-match;
+    z-index: 1;
+    font-size: 100px;
+    position: absolute;
+
+} 
+
+/* menu icon */
+
+.menu{
+    top: 5%;
+    left: 90%;
+    z-index: 1;
+    position: absolute;
+
+}
+
+.menubalkjes {
+  width: 70px;
+  height: 10px;
+  background-color: black;
+  margin: 12px 0;
+}

@@ -1,0 +1,157 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: sketch-match;
+    src: url(fonts/sketch-match.ttf);
+}
+@font-face{
+    font-family: budmo-jiggler;
+    src:url(fonts/budmo-jiggler.ttf)
+}
+
+.menu-container {
+  color: #fff;
+  background-color: rgb(20, 82, 153);  /* Blue */
+  padding: 20px 0;
+  display:flex;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
+}
+.mail{
+margin-left: 20px;
+}
+
+.header-container {
+  color: rgb(255, 255, 255);
+  background-color: rgb(226, 117, 54);
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  width: 900px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: riesling;
+}
+
+.social,
+.logo,
+.dropdown{
+    
+}
+
+.logo {
+    font-family: sketch-match;
+    font-size: 75px;
+}
+
+.social{
+
+}
+
+.dropdown{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid{
+  border: 20px solid rgba(0, 0, 0, 0);
+  width: 300px;
+  height: 300px;
+}
+
+.eilanden {
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.photo-tenerife{
+    top: 60%;
+    left: 34%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.photo-grancanaria{
+    top: 76%;
+    left: 51%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+
+}
+
+.photo-lanzarote{
+    top: 20%;
+    left: 85%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.photo-lagomera{
+    top: 67%;
+    left: 23%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.photo-fuerteventura{
+    top: 50%;
+    left: 80%;
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    padding: 10px; 
+}
+.background-photo{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+a.eilandenlink {
+    color: white;
+    text-decoration: none;
+}
+
+a.eilandenlink:hover {
+    text-decoration: underline;
+}
