@@ -47,23 +47,14 @@ margin-left: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: riesling;
 }
 
-.social,
-.logo,
-.dropdown{
-    
-}
 
 .logo {
     font-family: sketch-match;
     font-size: 75px;
 }
 
-.social{
-
-}
 
 .dropdown{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif

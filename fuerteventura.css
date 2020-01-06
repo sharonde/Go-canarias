@@ -17,15 +17,15 @@
 }
 
 .go-canarias-logo{
-    top: 4%;
+    top: 6%;
     left: 4%;
     position: absolute;
     float: left;
 }
 
 .go-canarias-bovenbalk{
-    top: 4%;
-    left: 38%;
+    top: 5%;
+    left: 36%;
     font-family: sketch-match;
     z-index: 1;
     font-size: 100px;
@@ -33,19 +33,47 @@
 
 } 
 
-/* menu icon */
-
-.menu{
-    top: 5%;
-    left: 90%;
-    z-index: 1;
-    position: absolute;
-
+a.go-canarias-bovenbalk{
+    text-decoration: none;
+    color:white;
 }
+
+/* menu icon */
 
 .menubalkjes {
   width: 70px;
   height: 10px;
   background-color: black;
   margin: 12px 0;
+}
+
+.menu{
+    top: 7%;
+    left:90%;
+    position: absolute;
+}
+
+/*informatie*/
+
+.info {
+    text-align: justify;
+    width: 800px;
+    /*border: 2px black solid;*/
+    margin: 0 auto;
+    position: relative;
+    float: left;
+    left: 10%;
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+/* fuerteventura photo */
+
+.fuerteventura-photo {
+    float: right;
+
 }
