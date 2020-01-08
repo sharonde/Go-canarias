@@ -57,7 +57,7 @@ a.go-canarias-bovenbalk{
 
 .info {
     text-align: justify;
-    width: 800px;
+    width: 35%;
     /*border: 2px black solid;*/
     margin: 0 auto;
     position: relative;
@@ -75,5 +75,9 @@ p {
 
 .fuerteventura-photo {
     float: right;
+    width: 27%;
+    left: 60%;
+    position: absolute;
+    top: 27%;
 
 }
