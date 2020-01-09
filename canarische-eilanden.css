@@ -28,8 +28,9 @@
     left: 36%;
     font-family: sketch-match;
     z-index: 1;
-    font-size: 100px;
+    font-size: 500%;
     position: absolute;
+    margin: 5px;
 
 } 
 
@@ -71,9 +72,9 @@ p {
 
 }
 
-/* fuerteventura photo */
+/*photo */
 
-.fuerteventura-photo {
+.photo {
     float: right;
     width: 27%;
     left: 60%;

@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/*headers*/
+
 @font-face {
     font-family: sketch-match;
     src: url(fonts/sketch-match.ttf);
@@ -15,9 +17,11 @@
     src:url(fonts/budmo-jiggler.ttf)
 }
 
+/*blue header*/
+
 .menu-container {
   color: #fff;
-  background-color: rgb(20, 82, 153);  /* Blue */
+  background-color: rgb(20, 82, 153); 
   padding: 20px 0;
   display:flex;
   justify-content: center;
@@ -33,6 +37,8 @@
 .mail{
 margin-left: 20px;
 }
+
+/* orange header */
 
 .header-container {
   color: rgb(255, 255, 255);
@@ -59,6 +65,8 @@ margin-left: 20px;
 .dropdown{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
+
+/*photo with links*/
 
 .photo-grid-container {
   display: flex;
@@ -98,17 +106,6 @@ margin-left: 20px;
     border: 1px solid white;
     padding: 10px;
 
-}
-
-.photo-lanzarote{
-    top: 20%;
-    left: 85%;
-    position: absolute;
-    z-index: 1;
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border: 1px solid white;
-    padding: 10px;
 }
 
 .photo-lagomera{

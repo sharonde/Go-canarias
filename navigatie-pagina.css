@@ -1,0 +1,26 @@
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: black;
+}
+
+
+.menu {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+}
+
+a:hover {
+    color: white;
+}
